@@ -31,6 +31,7 @@ function index({ frndArray, setFrndArray }) {
     <div className='addbox'>
       <div className='frname' >
         <p>Friend Name :</p>
+        
         <input type="text" placeholder='Enter name' className='inpt' value={name}
           onChange={(e) => setName(e.target.value)} />
       </div>
@@ -40,10 +41,13 @@ function index({ frndArray, setFrndArray }) {
         <input placeholder='Image location' className='inpt' value={imag}
           onChange={(e) => setImag(e.target.value)} />
       </div>
+
       <div style={{ display: 'flex', justifyContent: 'space-around' }}>
         {showComponent && (<button className='addbtn closebtn' onClick={handleClose}>Close</button>)}
         <button className='addbtn' onClick={addData}>ADD</button>
       </div>
+
+
     </div>
   )
 }

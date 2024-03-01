@@ -3,6 +3,23 @@ import './friend.css';
 import Addfriend from '../../components/Addfriend/index.jsx'
 function index({frndArray , setFrndArray}) {
   const [showAddFriend, setShowAddFriend] = useState(false);
+  return (
+    <div>
+        {
+            frndArray?.map((frnd, index) => <Friend key={index} frnd={frnd} />)
+        }
+    </div>
+)
+}
+
+  
+
+
+export default index
+
+
+function Friend({frnd ,showAddFriend ,setShowAddFriend }){
+
 
 
   return (
@@ -37,8 +54,5 @@ function index({frndArray , setFrndArray}) {
   </>
    
   )
+
 }
-
-export default index
-
-
