@@ -1,0 +1,50 @@
+.frndlist{
+    height: 100%;
+    width: 500px;
+    /* border: 5px solid orange; */
+}
+.friend{
+    padding: 2px;
+    width: auto;
+    /* border: 2px solid black; */
+    background-color:rgb(211, 181, 181);
+border-radius: 10px;
+    width: 400px;
+    margin: 5px auto;
+    display: flex;
+    gap: 40px;
+    /* justify-content: center; */
+}
+.img{
+    /* height: 30%;
+    width: 20%; */
+    border: 2px solid transparent;
+    border-radius: 50%;
+    margin: auto 0;
+}
+.paras{
+    margin-left: 0% ;
+}
+.select{
+ padding: 5px;
+    width: 100px;
+    background-color: orange;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 40%;
+   margin-top: 20%;
+}
+.addfriend{
+    padding: 5px;
+    width: 100px;
+    background-color: orange;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 70%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}

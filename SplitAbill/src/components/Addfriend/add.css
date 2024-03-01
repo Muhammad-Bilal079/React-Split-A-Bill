@@ -1,0 +1,29 @@
+.addbox{
+    border: 5px solid orange;
+    width: 400px;
+    height: 33vh;
+    border-radius: 6px;
+    margin-left: 30px;
+}
+.frname{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 16px;
+}
+.inpt{
+    border-radius: 30px;
+    border: 1px solid gray;
+    outline: none;
+    padding: 10px;
+}
+.addbtn{
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 6px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    /* margin: 10px 0 0 180px; */
+    cursor: pointer;
+}
